@@ -11,3 +11,5 @@
 
 - Para enviar as modificações ao repositório remoto:
   - Utilize o comando `git push`, ele é utilizado para envio das alterações gravadas no diretório local para o repositório remoto.
+
+Voltar para o [REDME](https://github.com/whoemai/Git-sobrevivente/blob/bf2fa3424c5238863c7824be6e34651d7d60802d/README.md)
