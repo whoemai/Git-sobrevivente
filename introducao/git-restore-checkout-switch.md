@@ -44,4 +44,4 @@ Para restaurarmos usando o `git restore` precisamos informar o ID do primeiro co
 git restore --source c776f0cdefd3c6e05165feecbfe6d6a484436f16 .
 ```
 
-Voltar para o [REDME](../README.md)
+Voltar para o [README](../README.md)
