@@ -12,4 +12,4 @@ Uma rápida observação: é fácil confundir o `git init` e o `git clone`. No n
 
 para informações mais detalhas acesse [aqui](https://www.atlassian.com/br/git/tutorials/setting-up-a-repository/git-init)
 
-Voltar para o [README](../README.md)
+Voltar para o [README](/README.md)
