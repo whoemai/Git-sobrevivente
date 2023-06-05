@@ -22,4 +22,4 @@ git clone -branch new_feature <repositorio>
 
 O exemplo acima clonaria apenas a branch `new_feature` de `repositorio`. Outras configurações de opções do `git clone` você pode consultar neste [link](https://git-scm.com/docs/git-clone).
 
-Voltar para o [REDME](../README.md)
+Voltar para o [README](/README.md)

@@ -12,4 +12,4 @@
 - Para enviar as modificações ao repositório remoto:
   - Utilize o comando `git push`, ele é utilizado para envio das alterações gravadas no diretório local para o repositório remoto.
 
-Voltar para o [REDME](../README.md)
+Voltar para o [README](/README.md)

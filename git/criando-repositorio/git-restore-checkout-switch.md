@@ -80,4 +80,4 @@ E logo em seguida usamos o comando com a seguinte sintaxe:
 git switch -c <nome-do-branch-local> --track <remoto-origin>/<nome-do-branch-remoto>
 ```
 
-Voltar para o [REDME](../README.md)
+Voltar para o [README](/README.md)
