@@ -44,4 +44,40 @@ Para restaurarmos usando o `git restore` precisamos informar o ID do primeiro co
 git restore --source c776f0cdefd3c6e05165feecbfe6d6a484436f16 .
 ```
 
-Voltar para o [REDME](../README.md)
+Mas podemos parar e pensar que usando o comando `git restore` a sintaxe é mais verbosa, agora temos que passar uma flag (`--source`) indicando qual o ponto, ou seja qual o estado que desejamos voltar?
+
+A resposta é sim, e isso é uma tendência, antes tínhamos isso não só no Git, mas em muitas outras ferramentas, essa ideia de um comando realizar diversas tarefas. Porém agora os mantenedores estão dividindo as responsabilidades e deixando os comando um pouco mais verbosos, porém semanticamente melhores de identificar cada parte do comando, bem como deixa o mesmo mais organizado e de fácil compreensão para outras pessoas.
+
+---
+
+## Git switch
+
+O `git switch` surge como alternativa quando estamos trabalhando com branchs. Com o `git checkout` podemos criar novas branchs e também alternamos entre os mesmos, e com o `git switch` podemos fazer o mesmo.
+
+Uma outra possibilidade que temos usando o `git switch` é usá-lo juntamente com o comando `git branch`, assim poderíamos criar a branch com o comando `git branch` e apenas selecionarmos o mesmo com o switch:
+
+```bash
+git branch novo-branch
+
+git switch novo-branch
+```
+
+O switch também nos fornece um atalho bastante interessante quando precisamos selecionar a branch master, podemos simplesmente utilizar um sinal de subtração ( - ) no lugar do nome do branch:
+
+```bash
+git switch -
+```
+
+Mais um possibilidade que o switch disponibiliza é alternamos para um branch remoto, no caso um branch que nosso projeto não tenha localmente ainda, então primeiro precisamos executar o comando `git fecth` para atualizarmos as informações do projeto remoto:
+
+```bash
+git fetch
+```
+
+E logo em seguida usamos o comando com a seguinte sintaxe:
+
+```bash
+git switch -c <nome-do-branch-local> --track <remoto-origin>/<nome-do-branch-remoto>
+```
+
+Voltar para o [README](/README.md)
