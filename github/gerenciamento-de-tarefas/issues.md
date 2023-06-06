@@ -5,5 +5,3 @@ No GitHub, uma issue é uma funcionalidade central usada para rastrear e discuti
 Uma issue normalmente contém um título descritivo que resume o problema ou a solicitação, além de uma descrição mais detalhada, fornecendo informações adicionais sobre o assunto em questão. Também pode incluir etiquetas, atribuições, marcos e comentários. As etiquetas ajudam a categorizar e organizar as issues, enquanto as atribuições indicam quais membros da equipe estão responsáveis por resolvê-las. Os marcos podem ser usados para acompanhar o progresso geral do projeto e as issues relacionadas.
 
 Voltar para o [README](/README.md)
-
-teste
