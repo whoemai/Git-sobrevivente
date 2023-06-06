@@ -11,6 +11,7 @@
 
 - Organizando os commits
   - [git rebase](/git/manipulacao-do-historico/git-rebase.md)
+  - [git cherry-pick / git bisect / git blame / git show {hash}](/git/manipulacao-do-historico/git-cheery-bisect-blame-show.md)
   
 ## Github-sobrevivente
 
