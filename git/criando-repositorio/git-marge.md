@@ -17,3 +17,5 @@ Aqui está uma explicação passo a passo do processo de merge:
 6. Após fazer o commit, o Git concluirá a mesclagem e as alterações do ramo mesclado estarão incorporadas ao ramo de destino.`
 
 Voltar para o [README](/README.md)
+
+teste
