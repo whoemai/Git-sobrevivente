@@ -23,3 +23,5 @@ Aqui está um exemplo passo a passo para entender melhor:
     8- Depois que as revisões são concluídas e suas alterações são aprovadas, um dos mantenedores do projeto pode mesclar seu pull request. Isso significa que suas alterações são incorporadas ao código principal do repositório original.
 
 É importante ressaltar que o pull request é uma forma de colaboração e revisão de código, permitindo que diferentes pessoas contribuam com ideias e melhorias antes de mesclar as alterações no código principal. É uma prática comum em projetos de código aberto e também amplamente utilizada em equipes de desenvolvimento de software para manter um processo estruturado e controlado de desenvolvimento colaborativo.
+
+Voltar para o [README](/README.md)
