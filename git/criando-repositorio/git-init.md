@@ -6,6 +6,8 @@ A maioria dos outros comandos Git não está disponível fora de um repositório
 
 Se você já executou o `git init` em um diretório de projeto e ele contém um subdiretório .git, você pode executar outra vez o `git init` com segurança no mesmo diretório de projeto. Essa ação não vai substituir a configuração do `.git`.
 
+---
+
 ## git init versus. git clone
 
 Uma rápida observação: é fácil confundir o `git init` e o `git clone`. No nível superficial, ambos podem ser usados para "inicializar um novo repositório do Git". Contudo, o `git clone` é dependente do `git init`. O `git clone` é usado para criar uma cópia de um repositório existente. No nível interno, o `git clone` primeiro chama o `git init` para criar um novo repositório. Em seguida, copia os dados do repositório existente e faz checkout de um novo conjunto de arquivos de trabalho.

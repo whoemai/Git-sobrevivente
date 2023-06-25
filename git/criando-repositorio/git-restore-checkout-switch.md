@@ -34,6 +34,8 @@ Porém como podemos perceber o `git checkout`, faz muitas coisas, tem muitas res
 
 Devemos estar sempre atentos ao nível de escopo em que vamos utilizar o comando `git checkout`. A nível de escopo de arquivo ele tem um comportamento, a nível de **commit** tem um outro comportamento e a nível de **branch** outro comportamento.
 
+---
+
 ## Git restore
 
 O `git restore` é uma nova opção quando estamos trabalhando e precisamos restaurar algum arquivo ou o projeto por completo, e isso o `git checkout` também faz, porém o `git restore` é especificamente para trabalhar com essa parte de restauração de arquivos ou projeto ao um ponto anterior que chamamos de fonte de restauração (source).
