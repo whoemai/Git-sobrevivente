@@ -1,22 +1,27 @@
-# Git e Github
+1. **`git init`**: Inicializa um novo repositório Git em um diretório. Esse comando cria um repositório vazio ou reinicializa um existente.
 
-## Git-sobrevivente
+2. **`git clone`**: Cria uma cópia de um repositório existente. É usado para baixar projetos hospedados em servidores remotos.
 
-- Como criar um repositório
-  - [git init](/git/criando-repositorio/git-init.md)
-  - [git clone](/git/criando-repositorio/git-clone.md)
-  - [git status / git add / git commit / git push](/git/criando-repositorio/git-status-add-commit-push.md)
-  - [git restore / git checkout / git switch](/git/criando-repositorio/git-restore-checkout-switch.md)
-  - [git marge](/git/criando-repositorio/git-marge.md)
+3. **`git add`**: Adiciona arquivos ao índice (staging area). Esse comando prepara os arquivos para serem incluídos no próximo commit.
 
-- Organizando os commits
-  - [git rebase](/git/manipulacao-do-historico/git-rebase.md)
-  - [git cherry-pick / git bisect / git blame / git show {hash}](/git/manipulacao-do-historico/git-cheery-bisect-blame-show.md)
-  
-## Github-sobrevivente
+4. **`git commit`**: Salva as mudanças no repositório local. É necessário fornecer uma mensagem que descreva as alterações feitas.
 
-- Gerenciamento de Tarefas
-  - [Issues](/github/gerenciamento-de-tarefas/issues.md)
-- Revisão de Código
-  - [Pull Requests](/github/revisao-de-codigo/pull-request.md)
-  
+5. **`git status`**: Mostra o estado atual do repositório, incluindo arquivos modificados, adicionados e não rastreados.
+
+6. **`git push`**: Envia os commits do repositório local para um repositório remoto. É usado para compartilhar mudanças com outros desenvolvedores.
+
+7. **`git pull`**: Atualiza o repositório local com as mudanças do repositório remoto. Combina `git fetch` e `git merge`.
+
+8. **`git branch`**: Gerencia branches (ramificações) no repositório. Pode listar, criar ou deletar branches.
+
+9. **`git checkout`**: Muda de branch ou restaura arquivos no repositório. Pode ser usado para navegar entre diferentes branches.
+
+10. **`git merge`**: Combina mudanças de diferentes branches em uma única branch. É usado para integrar funcionalidades desenvolvidas separadamente.
+
+11. **`git log`**: Exibe o histórico de commits do repositório. Pode ser configurado para mostrar detalhes específicos dos commits.
+
+12. **`git diff`**: Mostra as diferenças entre commits, branches ou arquivos. É útil para revisar mudanças antes de fazer um commit.
+
+13. **`git reset`**: Desfaz commits ou mudanças no repositório. Pode ser usado para redefinir o estado do repositório para um commit anterior.
+
+14. **`git stash`**: Salva temporariamente mudanças não commitadas. Permite que você limpe seu diretório de trabalho sem perder o progresso.
