@@ -25,3 +25,9 @@
 13. **`git reset`**: Desfaz commits ou mudanças no repositório. Pode ser usado para redefinir o estado do repositório para um commit anterior.
 
 14. **`git stash`**: Salva temporariamente mudanças não commitadas. Permite que você limpe seu diretório de trabalho sem perder o progresso.
+
+15. **`git revert`**: Este comando é usado para desfazer mudanças introduzidas por um commit específico, criando um novo commit que reverte as alterações. Diferente do `git reset`, ele não altera o histórico de commits, mas adiciona um novo commit que desfaz as mudanças.
+
+16. **`git reset`**: Este comando é usado para redefinir o estado do repositório para um commit anterior. Ele pode alterar o histórico de commits, o índice (staging area) e o diretório de trabalho, dependendo do modo usado (`--soft`, `--mixed`, `--hard`).
+
+17. **`git fetch`**: Este comando é usado para atualizar o repositório local com as mudanças do repositório remoto. Ele baixa os dados do repositório remoto, mas não faz merge ou rebase automaticamente.
